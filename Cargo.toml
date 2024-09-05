@@ -1,0 +1,17 @@
+[package]
+name = "tls-certchain-resolver"
+authors = ["Chua Zheng Leong"]
+license = "Apache-2.0"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustls = { version = "0.23.0" }
+webpki-roots = "0.26"
+clap = { version = "4.5.16", features = ["derive"] }
+x509-parser = { version = "0.16.0", features = ["verify"] }
+reqwest = { version = "0.12.7", features = ["blocking", "json"] }
+env_logger = "0.11.5"
+log = "0.4.22"
+der = "0.7.9"
+pem-rfc7468 = { version = "0.7.0", features = ["alloc"] }

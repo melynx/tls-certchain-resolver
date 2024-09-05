@@ -4,6 +4,7 @@ authors = ["Chua Zheng Leong"]
 license = "Apache-2.0"
 version = "0.1.0"
 edition = "2021"
+description = "A simple tool to resolve the certificate chain of a TLS server"
 repository = "https://github.com/melynx/tls-certchain-resolver"
 keywords = ["tls", "certificate", "chain", "resolver", "rust"]
 
